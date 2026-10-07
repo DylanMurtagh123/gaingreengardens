@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<link rel="icon" type="image/png" href="images/favicon.png" />
+<link rel="apple-touch-icon" href="images/favicon.png" />
+
+<title>Terms & Conditions | Gain Green Gardens Ipswich</title>
+<meta name="description" content="Terms and conditions for Gain Green Gardens, a family-run gardening service in Ipswich and Suffolk." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+  --moss:#2b2f1c; --moss-mid:#3d4a2f; --moss-light:#5a6a44;
+  --lime:#c9a64a; --lime-dark:#a8862f; --lime-pale:#ead9a3;
+  --bone:#f4efe1; --off-bone:#e7dfca; --text:#2a2f1c; --text-light:#6a6f54;
+  --font-display:'Bebas Neue', Impact, sans-serif;
+  --font-serif:'Cormorant Garamond', Georgia, serif;
+  --font-body:'DM Sans', system-ui, sans-serif;
+  --radius:6px; --radius-lg:16px; --shadow:0 4px 32px rgba(43,47,28,0.14);
+}
+html { scroll-behavior: smooth; }
+body { font-family: var(--font-body); background: var(--bone); color: var(--text); line-height: 1.75; overflow-x: hidden; }
+a { text-decoration: none; color: inherit; }
+.container { max-width: 1040px; margin: 0 auto; padding: 0 28px; }
+.nav { background: rgba(43,47,28,0.97); padding: 14px 0; box-shadow: 0 1px 0 rgba(201,166,74,0.15); }
+.nav__inner { max-width: 1200px; margin: 0 auto; padding: 0 28px; display:flex; align-items:center; justify-content:space-between; gap:24px; }
+.nav__brand { display:flex; align-items:center; gap:12px; }
+.nav__brand-mark { width:42px; height:42px; background:var(--lime); border-radius:8px; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+.nav__brand-mark svg { width:26px; height:26px; }
+.nav__brand-name { font-family:var(--font-display); font-size:1.05rem; letter-spacing:.08em; color:var(--bone); line-height:1.1; }
+.nav__brand-name em { font-family:var(--font-serif); font-style:italic; font-size:.85em; color:var(--lime-pale); display:block; letter-spacing:0; }
+.nav__links { display:flex; align-items:center; gap:28px; list-style:none; }
+.nav__links a { font-size:13px; font-weight:500; letter-spacing:.07em; color:rgba(246,244,236,.75); text-transform:uppercase; transition:color .2s; }
+.nav__links a:hover { color:var(--lime); }
+.policy-hero { background: var(--moss); color: var(--bone); padding: 86px 0 72px; position:relative; overflow:hidden; }
+.policy-hero::after { content:''; position:absolute; right:-160px; top:-160px; width:430px; height:430px; border-radius:50%; background:radial-gradient(circle, rgba(201,166,74,.16), transparent 70%); }
+.eyebrow { font-size:11px; font-weight:500; letter-spacing:.22em; text-transform:uppercase; color:var(--lime); margin-bottom:14px; }
+h1 { font-family:var(--font-display); font-size:clamp(3rem, 7vw, 5.8rem); line-height:.98; letter-spacing:.02em; max-width:820px; position:relative; z-index:1; }
+h1 em { font-family:var(--font-serif); font-style:italic; font-size:.82em; color:var(--lime-pale); letter-spacing:0; }
+.policy-intro { color:rgba(246,244,236,.68); max-width:700px; margin-top:22px; font-weight:300; position:relative; z-index:1; }
+.content-wrap { padding: 72px 0 88px; }
+.policy-card { background: rgba(255,255,255,.58); border:1px solid rgba(61,74,47,.12); border-radius:var(--radius-lg); box-shadow:var(--shadow); padding:42px; }
+.policy-card + .policy-card { margin-top:22px; }
+h2 { font-family:var(--font-display); font-size:2rem; line-height:1; letter-spacing:.04em; color:var(--moss); margin-bottom:14px; }
+h3 { font-family:var(--font-display); font-size:1.35rem; letter-spacing:.04em; color:var(--moss); margin:28px 0 8px; }
+p { color:var(--text-light); font-weight:300; margin-bottom:14px; }
+ul { margin: 0 0 16px 20px; color:var(--text-light); font-weight:300; }
+li { margin-bottom:8px; }
+strong { color:var(--text); font-weight:600; }
+.notice { background:rgba(201,166,74,.12); border:1px solid rgba(201,166,74,.22); border-radius:14px; padding:18px 20px; margin:20px 0; color:var(--text); }
+.notice p { margin:0; color:var(--text); }
+.footer { background:var(--moss); border-top:1px solid rgba(201,166,74,.1); }
+.footer__inner { display:grid; grid-template-columns:2fr 1fr 1.5fr; gap:48px; padding:54px 28px; max-width:1200px; margin:0 auto; }
+.footer__logo { display:flex; align-items:center; gap:12px; margin-bottom:20px; }
+.footer__logo-name { font-family:var(--font-display); font-size:1.05rem; letter-spacing:.08em; color:var(--bone); line-height:1.1; }
+.footer__logo-name em { font-family:var(--font-serif); font-style:italic; font-size:.85em; color:var(--lime-pale); display:block; letter-spacing:0; }
+.footer__brand p { font-size:13px; color:rgba(246,244,236,.45); max-width:280px; }
+.footer__nav, .footer__contact { display:flex; flex-direction:column; gap:10px; }
+.footer h5 { font-family:var(--font-display); font-size:.95rem; font-weight:400; letter-spacing:.18em; text-transform:uppercase; color:var(--lime); margin-bottom:10px; }
+.footer a, .footer span { font-size:13px; color:rgba(246,244,236,.5); font-weight:300; transition:color .2s; }
+.footer a:hover { color:var(--lime); }
+.footer__bottom { border-top:1px solid rgba(246,244,236,.05); padding:20px 28px; max-width:1200px; margin:0 auto; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:10px; }
+.footer__bottom p, .footer__legal a { font-size:12px; color:rgba(246,244,236,.35); margin:0; }
+.footer__legal { display:flex; gap:14px; flex-wrap:wrap; }
+.footer__legal a:hover { color:var(--lime); }
+@media (max-width: 768px) {
+  .nav__inner { align-items:flex-start; flex-direction:column; }
+  .nav__links { flex-wrap:wrap; gap:16px; }
+  .policy-card { padding:28px 22px; }
+  .footer__inner { grid-template-columns:1fr; gap:30px; }
+  .footer__bottom { flex-direction:column; text-align:center; }
+  .footer__legal { justify-content:center; }
+}
+</style>
+</head>
+<body>
+<nav class="nav">
+  <div class="nav__inner">
+    <a href="index.html" class="nav__brand">
+      <span class="nav__brand-mark">
+        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M16 28C16 18 22 12 28 10C26 18 22 26 16 28Z" fill="#0d1f12"/>
+          <path d="M16 28C16 18 10 12 4 10C6 18 10 26 16 28Z" fill="#18331f"/>
+          <path d="M16 28V14" stroke="#0d1f12" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </span>
+      <span class="nav__brand-name">Gain Green<em>gardens</em></span>
+    </a>
+    <ul class="nav__links">
+      <li><a href="index.html#services">Services</a></li>
+      <li><a href="index.html#work">Our Work</a></li>
+      <li><a href="index.html#transformations">Before &amp; After</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<header class="policy-hero">
+  <div class="container">
+    <div class="eyebrow">— Gain Green Gardens</div>
+    <h1>Terms &amp; <em>Conditions.</em></h1>
+    <p class="policy-intro">Clear, simple terms for quotes, bookings and gardening work carried out by Gain Green Gardens across Ipswich and Suffolk.</p>
+  </div>
+</header>
+
+<main class="content-wrap">
+  <div class="container">
+    <section class="policy-card">
+  <h2>Terms &amp; Conditions</h2>
+  <p><strong>Last updated:</strong> 16 May 2026</p>
+  <p>These terms apply when you ask Gain Green Gardens to provide gardening, garden maintenance, garden tidy, lawn care, turfing, pruning, hedge cutting, clearance or related outdoor services.</p>
+  <div class="notice"><p>This page is a practical website terms template for a small gardening business. It should be reviewed and adjusted by the business owner so it matches how Gain Green Gardens actually quotes, charges and works.</p></div>
+
+  <h3>1. About us</h3>
+  <p>Gain Green Gardens provides family-run gardening services in Ipswich, Suffolk and nearby areas.</p>
+  <ul>
+    <li><strong>Phone:</strong> 07835 897102</li>
+    <li><strong>Email:</strong> esdaille77@yahoo.com</li>
+  </ul>
+
+  <h3>2. Quotes and bookings</h3>
+  <ul>
+    <li>Quotes are based on the information available at the time of the visit, call, text or email.</li>
+    <li>A quote may change if the job changes, access is different from what was described, hidden issues are found, or extra work is requested.</li>
+    <li>A booking is confirmed when we agree the work, price and date with you by phone, text, email or in person.</li>
+    <li>All quotes are no-obligation until accepted.</li>
+  </ul>
+
+  <h3>3. Access to the property</h3>
+  <p>Please make sure we can safely access the garden or outdoor area at the agreed time. Gates, side entrances, parking, keys, pets and any hazards should be discussed before the visit.</p>
+  <p>If we cannot access the property, we may need to rearrange the visit and may charge a reasonable call-out or wasted journey fee where appropriate.</p>
+
+  <h3>4. Customer responsibilities</h3>
+  <ul>
+    <li>Please remove fragile, valuable or personal items from the working area before we arrive.</li>
+    <li>Please tell us about hidden cables, drains, pipes, uneven ground, damaged fences, unsafe structures, ponds or any other hazards.</li>
+    <li>Please keep pets and children away from the working area while tools and machinery are in use.</li>
+  </ul>
+
+  <h3>5. Garden waste</h3>
+  <p>Garden waste removal will be discussed as part of the quote. Where waste removal is included, we will remove normal garden waste created by the agreed work and dispose of it responsibly.</p>
+  <p>Extra waste, non-garden waste, rubble, household rubbish, contaminated materials or unexpected large volumes may cost more.</p>
+
+  <h3>6. Weather and delays</h3>
+  <p>Gardening work can be affected by heavy rain, high winds, unsafe ground conditions, extreme heat or other weather conditions. If the weather makes work unsafe or likely to cause damage, we may need to rearrange the appointment.</p>
+
+  <h3>7. Payments</h3>
+  <ul>
+    <li>Payment terms will be confirmed when the job is booked.</li>
+    <li>Payment is usually due once the agreed work has been completed, unless agreed otherwise.</li>
+    <li>For larger jobs, a deposit or staged payment may be requested before work begins.</li>
+  </ul>
+
+  <h3>8. Cancellations and rearrangements</h3>
+  <p>If you need to cancel or rearrange a booking, please give as much notice as possible. We understand plans change, but short-notice cancellations may affect the schedule.</p>
+  <p>If we need to cancel or rearrange due to weather, illness, vehicle issues or circumstances outside our control, we will contact you as soon as reasonably possible.</p>
+
+  <h3>9. Results and plant/lawn care</h3>
+  <p>We aim to complete every job carefully and professionally. However, plants, lawns and outdoor spaces are affected by weather, soil conditions, pests, watering, drainage, season and aftercare.</p>
+  <p>For turfing, planting or lawn improvement work, aftercare such as watering and avoiding heavy use is important. We are not responsible for deterioration caused by lack of aftercare, drought, pests, disease, pets, misuse or extreme weather after the work has been completed.</p>
+
+  <h3>10. Damage and liability</h3>
+  <p>We take care while working at your property. If you believe damage has been caused by our work, please tell us as soon as possible so we can inspect it.</p>
+  <p>We are not responsible for pre-existing damage, hidden issues, unstable structures, buried items, underground services we were not told about, or damage caused by circumstances outside our reasonable control.</p>
+
+  <h3>11. Photos of our work</h3>
+  <p>We may ask to take before-and-after photos of gardens or outdoor work for our portfolio, website or social media. We will avoid showing private details where possible and you can tell us if you do not want photos used.</p>
+
+  <h3>12. Complaints</h3>
+  <p>If something is not right, please contact us as soon as possible by phone or email. We will do our best to resolve concerns fairly and quickly.</p>
+
+  <h3>13. Changes to these terms</h3>
+  <p>We may update these terms from time to time. The latest version will be available on this page.</p>
+</section>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <div class="footer__logo">
+        <span class="nav__brand-mark">
+        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M16 28C16 18 22 12 28 10C26 18 22 26 16 28Z" fill="#0d1f12"/>
+          <path d="M16 28C16 18 10 12 4 10C6 18 10 26 16 28Z" fill="#18331f"/>
+          <path d="M16 28V14" stroke="#0d1f12" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+      </span>
+        <span class="footer__logo-name">Gain Green<em>gardens</em></span>
+      </div>
+      <p>A family-run gardening service caring for gardens across Ipswich and Suffolk — one tidy lawn at a time.</p>
+    </div>
+    <div class="footer__nav">
+      <h5>Explore</h5>
+      <a href="index.html">Home</a>
+      <a href="index.html#services">Services</a>
+      <a href="index.html#work">Our Work</a>
+      <a href="index.html#contact">Get a Quote</a>
+    </div>
+    <div class="footer__contact">
+      <h5>Contact</h5>
+      <a href="tel:07835897102">07835 897102</a>
+      <a href="mailto:esdaille77@yahoo.com">esdaille77@yahoo.com</a>
+      <span>Ipswich, Suffolk</span>
+      <span>Mon–Sat · 8am–6pm</span>
+    </div>
+  </div>
+  <div class="footer__bottom">
+    <p>© <span id="year"></span> Gain Green Gardens. All rights reserved.</p>
+    <div class="footer__legal" aria-label="Legal links">
+      <a href="terms-and-conditions.html">Terms &amp; Conditions</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+    </div>
+  </div>
+</footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
